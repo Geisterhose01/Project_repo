@@ -6,3 +6,5 @@ st.write("apfel")
 
 st.text_input('wie alt bist du?')
 st.write("apfel")
+
+st.text_input('woher kommst du?')
