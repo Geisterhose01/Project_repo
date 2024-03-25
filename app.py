@@ -2,6 +2,8 @@ import streamlit as st
 
 st.write('hello world')
 st.text_input('schreibe deine Namen')
+x = st.text_input('schreibe deine Namen')
+st.write(f'Dein Name ist: {x}')
 st.write("apfel")
 
 st.text_input('wie alt bist du?')
