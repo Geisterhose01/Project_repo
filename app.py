@@ -18,9 +18,4 @@ st.write(f'Dein Name ist: {x}')
 
 st.text_input('wie alt bist du?')
 
-st.text_input('woher kommst du?')
-st.button('Submit')
-If st.button('Submit'):
-    st.write('Danke für die Info')
-else:
-    st.write('Bitte fülle die Felder aus')
+st.text_input('woher')
