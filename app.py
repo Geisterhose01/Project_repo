@@ -12,4 +12,5 @@ st.write(f'Dein Name ist: {x}')
 alter = st.slider ('Wie alt bist du?', 0, 100, 25)
 st.write('Ich bin', alter, 'Jahre alt')
 
-st.text_input('woher')
+data = pd.read_json('categories.php.json')
+st.write(data)
