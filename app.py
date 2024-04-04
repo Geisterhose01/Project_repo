@@ -11,6 +11,6 @@ x = st.text_input('Wie heisst du?')
 st.write(f'Dein Name ist: {x}')
 
 alter = st.slider ('Wie alt bist du?', 0, 100, 25)
-st.write('Ich bin', age, 'Jahre alt')
+st.write('Ich bin', alter, 'Jahre alt')
 
 st.text_input('woher')
