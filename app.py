@@ -12,6 +12,8 @@ st.write(f'Dein Name ist: {x}')
 alter = st.slider ('Wie alt bist du?', 0, 100, 25)
 st.write('Ich bin', alter, 'Jahre alt')
 
+st.write(f'Hallo: {x}, schön, dass du unsere App nutzt')
+
 st.subheader('Welche Kategorie möchtest du nutzen?')
 
 data = pd.read_csv('food.csv')
