@@ -15,5 +15,4 @@ st.write('Ich bin', alter, 'Jahre alt.')
 
 st.subheader('Welche Kategorie möchtest du nutzen?')
 
-data = pd.read_csv('food.csv')
-st.write(data)
+st.link_button('Events', 'https://projectrepo-c4ukv9mberd3dykzagyjdq.streamlit.app/events')
