@@ -12,5 +12,5 @@ st.write(f'Dein Name ist: {x}')
 alter = st.slider ('Wie alt bist du?', 0, 100, 25)
 st.write('Ich bin', alter, 'Jahre alt')
 
-data = pd.read_json('categories.php.json')
+data = pd.read_csv('food.csv')
 st.write(data)
