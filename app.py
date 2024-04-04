@@ -1,21 +1,16 @@
 import streamlit as st
+import pandas as pd
+import numpy as np
 
-st.write('hello world')
-x = st.text_input('schreibe deine Namen')
-st.write(f'Dein Name ist: {x}')
-st.write("apfel")
-
-st.text_input('wie alt bist du?')
-st.write("apfel")
-
-st.text_input('woher kommst du?')
 
 st.title('Dateideen')
 st.header('Dateideen für den Sommer')
 st.write_steam('Hier sind ein paar Dateideen für den Sommer:')
-x = st.text_input('schreibe deine Namen')
+st.text_input('Wie heisst du?')
+x = st.text_input('Wie heisst du?')
 st.write(f'Dein Name ist: {x}')
 
-st.text_input('wie alt bist du?')
+alter = st.slider ('Wie alt bist du?', 0, 100, 25)
+st.write('Ich bin', age, 'Jahre alt')
 
 st.text_input('woher')
