@@ -16,3 +16,4 @@ st.write('Ich bin', alter, 'Jahre alt.')
 st.subheader('Welche Kategorie möchtest du nutzen?')
 
 st.link_button('Events', 'https://projectrepo-c4ukv9mberd3dykzagyjdq.streamlit.app/events')
+st.link_button('Food', 'https://projectrepo-c4ukv9mberd3dykzagyjdq.streamlit.app/food')
