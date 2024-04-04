@@ -9,6 +9,8 @@ st.subheader('Beginnen wir mit einigen Angaben von dir..')
 x = st.text_input('Wie heisst du?')
 
 alter = st.slider ('Wie alt bist du?', 0, 100, 25)
+st.write('Ich bin', alter, 'Jahre alt.')
+
 
 st.write(f'Hallo {x}'', schön, dass du unsere App nutzt')
 
