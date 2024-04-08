@@ -23,7 +23,7 @@ st.link_button('Indoor', 'https://projectrepo-c4ukv9mberd3dykzagyjdq.streamlit.a
 st.subheader('In welcher Region möchtest du ein Date finden?')  
 st.write('Wähle eine Region aus:')
 
-region = st.checkbox('Region', ['Zürich', 'St.Gallen', 'Basel', 'Bern', 'Luzern', 'Thurgau', 'Aargau', 'Graubünden', 'Tessin', 'Wallis', 'Waadt', 'Genf', 'Jura', 'Neuenburg', 'Freiburg', 'Schwyz', 'Uri', 'Obwalden', 'Nidwalden', 'Glarus', 'Zug', 'Schaffhausen', 'Appenzell Ausserrhoden', 'Appenzell Innerrhoden']) #Regionenwahl
+st.checkbox = ('Region', ['Zürich', 'St.Gallen', 'Basel', 'Bern', 'Luzern', 'Thurgau', 'Aargau', 'Graubünden', 'Tessin', 'Wallis', 'Waadt', 'Genf', 'Jura', 'Neuenburg', 'Freiburg', 'Schwyz', 'Uri', 'Obwalden', 'Nidwalden', 'Glarus', 'Zug', 'Schaffhausen', 'Appenzell Ausserrhoden', 'Appenzell Innerrhoden']) #Regionenwahl
  # Region auswählen mit Checkbox
 
 
