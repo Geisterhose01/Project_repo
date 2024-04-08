@@ -17,3 +17,11 @@ st.subheader('In welcher Kategorie möchtest du ein Date finden?')
 
 st.link_button('Events', 'https://projectrepo-c4ukv9mberd3dykzagyjdq.streamlit.app/events') #hier haben wir die Seiten mit dem Button verlinkt
 st.link_button('Food', 'https://projectrepo-c4ukv9mberd3dykzagyjdq.streamlit.app/food') #hier haben wir die Seiten mit dem Button verlinkt
+st.link_button('Outdoor', 'https://projectrepo-c4ukv9mberd3dykzagyjdq.streamlit.app/outdoor') #hier haben wir die Seiten mit dem Button verlinkt
+st.link_button('Indoor', 'https://projectrepo-c4ukv9mberd3dykzagyjdq.streamlit.app/indoor') #hier haben wir die Seiten mit dem Button verlinkt
+
+st.subheader('In welcher Region möchtest du ein Date finden?')  
+st.write('Wähle eine Region aus:')
+
+region = st.radio('Region', ['Berlin', 'Hamburg', 'München', 'Düsseldorf', 'Hannover', 'Dortmund', 'Köln', 'Duisburg', 'Köln', 'Duisburg', 'Köln', 'Duisburg', 'Köln', 'Duisburg', 'Köln', 'Duisburg', 'Köln', 'D'])
+                             
