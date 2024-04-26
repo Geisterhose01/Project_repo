@@ -12,8 +12,8 @@ st.write(f'Hallo {x}'', schön, dass du unsere App nutzt.')
 alter = st.slider ('Wie alt bist du?', 0, 100, 25) #Altersangabe in einem slider
 st.write('Ich bin', alter, 'Jahre alt.')
 
-
-st.subheader('In welcher Kategorie möchtest du ein Rezept finden')
+#Button um zur richtigen Seite zu kommen
+st.subheader('Klicke auf den Button um zu deinem passenden Rezept zu gelangen')
 
 st.link_button('Food', 'https://projectrepo-c4ukv9mberd3dykzagyjdq.streamlit.app/food') #hier haben wir die Seiten mit dem Button verlinkt
 
