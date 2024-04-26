@@ -5,8 +5,6 @@ from apiController import searchByIngredients
 st.title('Finde dein Traumrezept')
 st.subheader('Welche Zutaten willst du verwenden?')
 
-
-
 food_ingredients = [
     "Apples", "Bananas", "Carrots", "Dates", "Eggs", 
     "Fish", "Garlic", "Honey", "Ice cream", "Jam",
