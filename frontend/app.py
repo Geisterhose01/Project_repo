@@ -1,10 +1,13 @@
-import streamlit as st
-import pandas as pd
-import numpy as np
 
+import streamlit as st #pip install streamlit
+import pandas as pd #pip install pandas
+import numpy as np #pip install numpy                                   
 
+# Titel
 st.title('Rezeptideen')
 st.header('Finde deine passende Rezepte für jeden Anlass')
+
+#Beschreibung
 st.subheader('Beginnen wir mit einigen Angaben von dir..')
 x = st.text_input('Wie heisst du?') #Eingabe Namen
 st.write(f'Hallo {x}'', schön, dass du unsere App nutzt.')
