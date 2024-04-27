@@ -1,7 +1,5 @@
 import streamlit as st
 
-from frontend.pages.foodFunctions.apiController import searchByIngredients
-
 #Titelseite machen
 st.title('Finde dein Traumrezept')
 st.subheader('Welche Zutaten willst du verwenden?')
