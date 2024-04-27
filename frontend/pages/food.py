@@ -1,4 +1,5 @@
 import streamlit as st
+from backend.apiController import searchByIngredients
 
 #Titelseite machen
 st.title('Finde dein Traumrezept')
