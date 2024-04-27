@@ -1,4 +1,4 @@
-import streamlit as st
+ import streamlit as st
 import requests
 import pandas as pd
 
@@ -11,6 +11,13 @@ st.markdown(
         background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/13973.jpg");
         background-attachment: fixed;
         background-size: cover
+    }}
+    table {{
+        color: white;
+        font-family: Arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        background-color: #262730;
     }}
     </style>
     """,
@@ -45,7 +52,8 @@ def main():
             else:
                 df = pd.DataFrame(results)
                 df = df[["title", "readyInMinutes", "servings", "sourceUrl"]]
-                st.write(df)
+                df['sourceUrl'] = df['sourceUrl'].apply(lambda x: f'<a href="{x}" target="_blank">{x}</a>')
+                st.write(df.to_html(escape=False), unsafe_allow_html=True)
         else:
             st.write("Mindestens eine Zutat hinzufügen")
 
