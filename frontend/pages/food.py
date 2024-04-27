@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
-from apiController import searchByIngredients
+
+from backend.apiController import searchByIngredients
 
 st.title('Finde dein Traumrezept')
 st.subheader('Welche Zutaten willst du verwenden?')
