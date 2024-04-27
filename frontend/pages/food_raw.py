@@ -1,8 +1,6 @@
-import os
 import streamlit as st
-import pandas as pd
 
-import backend.apiController
+from frontend.pages.apiController import searchByIngredients
 
 # Titelseite machen
 st.title('Finde dein Traumrezept')
