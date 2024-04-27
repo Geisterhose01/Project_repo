@@ -1,17 +1,16 @@
 import streamlit as st
-import pandas as pd
 
 from backend.apiController import searchByIngredients
 
+#Titelseite machen
 st.title('Finde dein Traumrezept')
 st.subheader('Welche Zutaten willst du verwenden?')
-
-
 
 food_ingredients = [
     "Apples", "Bananas", "Carrots", "Dates", "Eggs", 
     "Fish", "Garlic", "Honey", "Ice cream", "Jam",
 ]
+st.data_editor(food_ingredients)
 
 selected_ingredients = st.multiselect(
     label="Select food ingredients",
@@ -22,6 +21,7 @@ selected_ingredients = st.multiselect(
     disabled=False,
     label_visibility="visible"
 )
+
 
 def getFoodSuggestions(selected_ingredients): 
     result = searchByIngredients(selected_ingredients, 10)
