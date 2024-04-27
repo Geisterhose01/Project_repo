@@ -1,6 +1,6 @@
 import streamlit as st
 
-from .apiController import searchByIngredients
+from foodFunctions.apiController import searchByIngredients
 
 # Titelseite machen
 st.title('Finde dein Traumrezept')
